@@ -1,0 +1,5 @@
+# .gitignore contents:
+.venv/
+config.py
+__pycache__/
+*.env
