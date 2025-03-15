@@ -15,3 +15,10 @@ class TwitterHandler:
             print(f"Tweet posted: {response.data['text']}")
         except tweepy.TweepyException as e:
             print(f"Error posting tweet: {e}")
+
+    def verify_credentials(self):
+        try:
+            user = self.client.get_me()
+            print(f"Authenticated as: {user.data.name} (@{user.data.username})")
+        except tweepy.TweepyException as e:
+            print(f"Authentication failed: {e}")
