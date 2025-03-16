@@ -4,4 +4,5 @@ config.py
 __pycache__/
 *.env
 config.json
-run_bot.sh
+run_bot.sh*.log
+
