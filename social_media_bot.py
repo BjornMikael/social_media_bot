@@ -2,7 +2,7 @@ import json
 from handlers.twitter_handler import TwitterHandler
 from handlers.mastodon_handler import MastodonHandler
 
-# Load configuration
+# Load new configuration
 with open("config.json", "r") as config_file:
     config = json.load(config_file)
 
