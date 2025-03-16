@@ -6,3 +6,5 @@ __pycache__/
 config.json
 run_bot.sh*.log
 
+run_bot.sh
+*.log
