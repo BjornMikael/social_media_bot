@@ -17,3 +17,12 @@ def post_to_all_platforms(message):
 
 if __name__ == "__main__":
     post_to_all_platforms("Hello from my modular bot! 🌍")
+
+import time
+
+while True:
+    # Your bot's main logic here
+    print("Bot is running...")
+    
+    # Avoid high CPU usage
+    time.sleep(30)  # Wait 30 seconds before running again
